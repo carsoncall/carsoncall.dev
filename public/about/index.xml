@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on fossopher.dev</title>
+    <link>https://fossopher.dev/about/</link>
+    <description>Recent content in Abouts on fossopher.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://fossopher.dev/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carson Call</title>
+      <link>https://fossopher.dev/about/carson-call/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fossopher.dev/about/carson-call/</guid>
+      <description>&lt;h4 id=&#34;hello&#34;&gt;Hello!&lt;/h4&gt;
+&lt;h4 id=&#34;my-name-is-carson-call&#34;&gt;My name is Carson Call.&lt;/h4&gt;
+&lt;p&gt;I am a developer currently based in Provo, Utah. I am graduating in April 2025!&lt;/p&gt;
+&lt;h2 id=&#34;about-this-site&#34;&gt;About this site&lt;/h2&gt;
+&lt;p&gt;I created fossopher.dev as a combination portfolio/blog. All opinions expressed are my own, and do not represent the opinions of my employers, past or present.&lt;/p&gt;</description>
+      <content>&lt;h4 id=&#34;hello&#34;&gt;Hello!&lt;/h4&gt;
+&lt;h4 id=&#34;my-name-is-carson-call&#34;&gt;My name is Carson Call.&lt;/h4&gt;
+&lt;p&gt;I am a developer currently based in Provo, Utah. I am graduating in April 2025!&lt;/p&gt;
+&lt;h2 id=&#34;about-this-site&#34;&gt;About this site&lt;/h2&gt;
+&lt;p&gt;I created fossopher.dev as a combination portfolio/blog. All opinions expressed are my own, and do not represent the opinions of my employers, past or present.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
