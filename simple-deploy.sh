@@ -146,16 +146,6 @@ create_systemd_service() {
   COMMAND="${COMMAND}
 log 'Creating systemd user service for ${site_name} on port ${PORT}'
 cat <<EOF > /home/${site_name}/.config/systemd/user/http-server.service
-[Unit]
-Description=Python HTTP Server
-After=network.target
-
-[Service]
-ExecStart=/usr/bin/python3 -m http.server ${PORT} --directory /home/${site_name}/$(basename ${DIRECTORY_TO_COPY})
-Restart=always
-
-[Install]
-WantedBy=default.target
 EOF"
 }
 

@@ -1,6 +1,7 @@
 baseURL = 'https://fossopher.dev/'
 languageCode = 'en-us'
 title = 'fossopher.dev'
+enableEmoji = true
 [[module.imports]]
   path = 'github.com/panr/hugo-theme-terminal/v4'
 
@@ -13,10 +14,10 @@ title = 'fossopher.dev'
   showMenuItems = 4
 
   # show selector to switch language
-  showLanguageSelector = true
+  showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = true
+  fullWidthTheme = false
 
   # center theme with default width
   centerTheme = true
@@ -69,7 +70,7 @@ title = 'fossopher.dev'
 [languages]
   [languages.en]
     languageName = "English"
-    title = "fossopher.dev"
+    title = "carsoncall.dev"
 
     [languages.en.params]
       owner = "Carson Call"
@@ -95,50 +96,50 @@ title = 'fossopher.dev'
           name = "About Me"
           url = "/about"
         [[languages.en.menu.main]]
-          identifier = "personal"
-          name = "Posts for normal people"
-          url = "/posts/personal"
+          identifier = "posts"
+          name = "Blog Posts"
+          url = "/posts"
         [[languages.en.menu.main]]
-          identifier = "technical"
-          name = "Posts for nerds"
-          url = "/posts/technical"
+          identifier = "projects"
+          name = "Past Work"
+          url = "/past-work"
 
   
-  [languages.es]
-    languageName = "Español"
-    title = "fossopher.dev"
+  # [languages.es]
+  #   languageName = "Español"
+  #   title = "fossopher.dev"
 
-    [languages.es.params]
-      owner = "Carson Call"
-      keywords = ""
-      copyright = ""
-      menuMore = "Ver mas"
-      readMore = "Leer mas"
-      readOtherPosts = "Leer otros artículos"
-      newerPosts = "Artículos nuevos"
-      olderPosts = "Artículos viejos"
-      missingContentMessage = "Pagina no encontrada"
-      missingBackButtonLabel = "Regresar a casa"
-      minuteReadingTime = "min leído"
-      words = "palabras"
+  #   [languages.es.params]
+  #     owner = "Carson Call"
+  #     keywords = ""
+  #     copyright = ""
+  #     menuMore = "Ver mas"
+  #     readMore = "Leer mas"
+  #     readOtherPosts = "Leer otros artículos"
+  #     newerPosts = "Artículos nuevos"
+  #     olderPosts = "Artículos viejos"
+  #     missingContentMessage = "Pagina no encontrada"
+  #     missingBackButtonLabel = "Regresar a casa"
+  #     minuteReadingTime = "min leído"
+  #     words = "palabras"
 
-      [languages.es.params.logo]
-        logoText = "Carson Call"
-        logoHomeLink = "/"
+  #     [languages.es.params.logo]
+  #       logoText = "Carson Call"
+  #       logoHomeLink = "/"
 
-      [languages.es.menu]
-        [[languages.es.menu.main]]
-          identifier = "sobre-mi"
-          name = "Sobre Mí"
-          url = "/sobre-mi"
-        [[languages.es.menu.main]]
-          identifier = "personal"
-          name = "Artículos para personas normales"
-          url = "/articulos/personal"
-        [[languages.es.menu.main]]
-          identifier = "tecnical"
-          name = "Artículos para nerds"
-          url = "/articulos/tecnical"
+  #     [languages.es.menu]
+  #       [[languages.es.menu.main]]
+  #         identifier = "sobre-mi"
+  #         name = "Sobre Mí"
+  #         url = "/sobre-mi"
+  #       [[languages.es.menu.main]]
+  #         identifier = "personal"
+  #         name = "Artículos para personas normales"
+  #         url = "/articulos/personal"
+  #       [[languages.es.menu.main]]
+  #         identifier = "tecnical"
+  #         name = "Artículos para nerds"
+  #         url = "/articulos/tecnical"
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
   # uncomment the line below (and correct the local path if necessary).
