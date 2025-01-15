@@ -35,7 +35,7 @@ loginctl enable-linger jellyfin
 ```bash 
 machinectl shell jellyfin@
 ```
-4. User services, regardless of whether they're containerized, are configured with files located in:
+4. User services are configured with files located in:
 ```bash
 cd ~/.config/systemd/user/*
 ```
