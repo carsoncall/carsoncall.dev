@@ -144,4 +144,4 @@ enableEmoji = true
   # In case you would like to make changes to the theme and keep it locally in you repository,
   # uncomment the line below (and correct the local path if necessary).
   # --
-  replacements = "github.com/panr/hugo-theme-terminal/v4 -> terminal"
+  # replacements = "github.com/panr/hugo-theme-terminal/v4 -> terminal"
