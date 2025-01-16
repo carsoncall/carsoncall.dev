@@ -88,7 +88,7 @@ enableEmoji = true
 
       [languages.en.params.logo]
         logoText = "Carson Call"
-        logoHomeLink = "/"
+        logoHomeLink = "/about"
 
       [languages.en.menu]
         [[languages.en.menu.main]]

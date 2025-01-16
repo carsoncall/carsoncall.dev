@@ -68,7 +68,7 @@ After=network.target
 # Example command to execute before starting the service
 ExecStartPre=/usr/bin/mount /dev/your/device
 
-# Prefixing with a '-' means that the service will continue to start up, even if this service fails
+# Prefixing with a '-' means that the service will continue to start up, even if this command fails
 ExecStartPre=-/usr/bin/neofetch
 
 # The command to start the service
@@ -97,7 +97,7 @@ WorkingDirectory=/home/username/example-directory
 User=username
 Group=groupname
 
-# Timeout settings
+# Timeout settings -- how long to wait to let it start/stop, respectively
 TimeoutStartSec=30
 TimeoutStopSec=30
 
