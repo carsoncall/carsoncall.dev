@@ -1,0 +1,1 @@
+hugo serve --bind 0.0.0.0 --port 1313 --baseURL http://localhost:1313
